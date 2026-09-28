@@ -51,7 +51,7 @@ jobs:
 | Input | Description | Required | Default |
 | --- | --- | --- | --- |
 | `url` | Web URL or local dev server address to scan | **Yes** | — |
-| `standard` | WCAG tag to enforce (`wcag2a`, `wcag2aa`, `wcag21aa`, `wcag22aa`) | No | `wcag21aa` |
+| `standard` | WCAG tag to enforce (`wcag2a`, `wcag2aa`, `wcag21aa`, `wcag22aa`, `RGAAv4`) | No | `wcag21aa` |
 | `fail-on` | Minimum severity level to trigger CI failure (`minor`, `moderate`, `serious`, `critical`) | No | `serious` |
 | `output-json` | Path where full JSON report will be saved | No | `axe-results.json` |
 
